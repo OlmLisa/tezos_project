@@ -30,6 +30,8 @@ Le sender est comparé à l’adresse de l’owner. L’administrateur ne doit p
 Finalement :
 ( list[] , record[contractPause -> true , int_no -> 1 , int_yes -> 2 , owner -> @"tz1VPFYwwtWZ5ytH5ZcMYyvqi9AmiR3d8sJT" , voteofuser -> map[@"tz1gfArv665EUkSg2ojMBzcbfwuPxAvqPvjo" -> "no" , @"tz3VEZ4k6a4Wx42iyev6i2aVAptTRLEAivNN" -> "yes" , @"tz3bTdwZinP8U1JmSweNzVKhmwafqWmFWRfk" -> "yes"]] )
 Remarque :  dans le contrat pas failwith pour pouvoir voir le résultat du vote et la pause du contrat. Donc constater de l’état final du storage.
+
+
 Création d’un fichier python dans le dossier tests :
 nano pytest-vote.py
 
