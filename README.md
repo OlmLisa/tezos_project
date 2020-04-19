@@ -34,6 +34,7 @@ Commande : ligo dry_run
 
 Commande finale : 
 ligo dry-run --sender=tz1MGTFJXpQmtxLi8QJ7AuVRgM2L2Qfn9w9i vote_v3.ligo main 'Vote("yes")' 'record voteofuser=map ("tz1gfArv665EUkSg2ojMBzcbfwuPxAvqPvjo" : address) -> "no"; ("tz3bvNMQ95vfAYtG8193ymshqjSvmxiCUuR5" : address) -> "yes";("tz3bTdwZinP8U1JmSweNzVKhmwafqWmFWRfk" : address) -> "yes"; ("tz3VEZ4k6a4Wx42iyev6i2aVAptTRLEAivNN" : address) -> "yes";end; owner=("tz1VPFYwwtWZ5ytH5ZcMYyvqi9AmiR3d8sJT":address); int_yes=0; int_no=0; contractPause=False; end' 
+
 Le sender est comparé à l’adresse de l’owner. L’administrateur ne doit pas voter.
 Puis pour tester les 10 votes, entrer 10 votes dans le storage comme ci-dessus avec 4 votes.
 Au bout de 10 votes, résultat des votes et contratPause est True.
